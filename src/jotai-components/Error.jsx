@@ -7,10 +7,10 @@ function Error() {
   const [hasError] = useAtom(hasErrorAtom);
 
   if (!hasError) {
-    return <div>No error</div>;
+    return <div>Error Jotai: No error</div>;
   }
 
-  return <div>{errorText}</div>;
+  return <div>Error Jotai: {errorText}</div>;
 }
 
 export default Error;

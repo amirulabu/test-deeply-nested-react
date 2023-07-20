@@ -23,7 +23,7 @@ function Form2() {
   return (
     <>
       <TextInput
-        label="Text"
+        label="Text Reducer"
         placeholder="Enter your text"
         value={text}
         onChange={handleOnChange}

@@ -10,12 +10,8 @@ function App() {
       <Index />
 
       <div>
-        <div>
-          Error 1: <Error />
-        </div>
-        <div>
-          Error 2: <Error2 />
-        </div>
+        <Error />
+        <Error2 />
       </div>
     </MantineProvider>
   );

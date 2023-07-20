@@ -21,7 +21,7 @@ function Form() {
   return (
     <>
       <TextInput
-        label="Text"
+        label="Text Jotai"
         placeholder="Enter your text"
         value={text}
         onChange={handleOnChange}

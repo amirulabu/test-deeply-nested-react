@@ -4,10 +4,10 @@ function Error2() {
   const [{ errorText }] = useErrorText();
 
   if (errorText == "") {
-    return <div>No error</div>;
+    return <div>Error reducer: No error</div>;
   }
 
-  return <div>{errorText}</div>;
+  return <div>Error reducer: {errorText}</div>;
 }
 
 export default Error2;
